@@ -61,7 +61,7 @@ export function Header() {
         <div className="flex items-center space-x-4">
           <Button asChild size="sm" variant="ghost">
             <Link
-              href="https://github.com/yourusername/data-structure-visualizer"
+              href="https://github.com/PrnvCodr"
               target="_blank"
               rel="noopener noreferrer"
             >
