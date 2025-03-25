@@ -1,63 +1,73 @@
-# Data Structure Visualizer
+# **Data Structure Visualizer**  
 
-An interactive web application for learning data structures through visual animations and step-by-step operations. Built with Next.js 14, TypeScript, Shadcn/ui, React Flow and Framer Motion.
+An interactive platform designed to help learners understand data structures through animated visualizations and step-by-step interactions. Developed using **Next.js 15**, **TypeScript**, **React Flow**, **Framer Motion**, and **Shadcn/ui** for an intuitive and engaging user experience.  
 
-![DS Visualizer Landing Page](./public/landing-light.png)
-![Stacks](./public/ds-st.png)
-![Queue](./public/ds-q.png)
-![Linked List](./public/ds-ll.png)
-![Polynomial](./public/ds-polynomial-multiplication.png)
-![Heap](./public/ds-heap.png)
-![Binary Tree](./public/ds-bst.png)
-![AVL Tree](./public/ds-avl.png)
-![Huffman](./public/ds-huffman.png)
-![Dijkstra](./public/ds-dijkstra.png)
+## **Preview**  
 
-## Features
+![Landing Page](./public/landing-light.png)  
+![Stacks](./public/ds-st.png)  
+![Queue](./public/ds-q.png)  
+![Linked List](./public/ds-ll.png)  
+![Polynomial Multiplication](./public/ds-polynomial-multiplication.png)  
+![Heap](./public/ds-heap.png)  
+![Binary Tree](./public/ds-bst.png)  
+![AVL Tree](./public/ds-avl.png)  
+![Huffman Encoding](./public/ds-huffman.png)  
+![Dijkstra's Algorithm](./public/ds-dijkstra.png)  
 
-### Data Structures
-- **Linked Lists**: Singly, doubly, and circular implementations
-- **Stack & Queue**: LIFO/FIFO operations with visual feedback
-- **Trees**: BST and AVL with auto-balancing visualizations
-- **Heap**: Min/max heap implementations with heapify animations
+---
 
-### Applications
-- **Infix to Postfix Conversion**: Expression conversion using stacks
-- **Message Queue System**: Producer-consumer queue simulation
-- **Polynomial Multiplication**: Using linked list representation
-- **Huffman Coding**: Encoding and decoding messages using a Huffman tree
-- **Dijkstra's Algorithm**: Finding the shortest path between nodes in a graph
+## **Core Features**  
 
-## Tech Stack
+### **Data Structure Visualizations**  
+- **Linked Lists**: Explore **singly**, **doubly**, and **circular** linked lists with dynamic node operations.  
+- **Stacks & Queues**: Perform **push/pop** and **enqueue/dequeue** operations with animated feedback.  
+- **Trees**: Visualize **Binary Search Trees (BSTs)** and **AVL trees** with self-balancing mechanics.  
+- **Heaps**: Watch **min/max heap** insertions and deletions with heapify animations.  
 
-- **Framework**: Next.js 15
-- **Language**: TypeScript
-- **Styling**: TailwindCSS
-- **Animations**: Framer Motion
-- **Graph Visualization**: React Flow
-- **UI Components**: Shadcn/ui
+### **Algorithm Applications**  
+- **Infix to Postfix Converter**: Demonstrates stack-based expression conversion.  
+- **Message Queue Simulation**: Implements a **producer-consumer** queue model.  
+- **Polynomial Multiplication**: Uses linked lists to simulate polynomial arithmetic.  
+- **Huffman Encoding**: Encodes and decodes text using Huffman trees.  
+- **Dijkstra’s Shortest Path**: Finds the optimal path in a weighted graph.  
 
-## Getting Started
+---
 
-1. Clone the repository:
-```bash
-git clone https://github.com/CubeStar1/ds-visualizer.git
-cd ds-visualizer
-```
+## **Technology Stack**  
 
-2. Install dependencies:
-```bash
-npm install
-```
+- **Framework**: Next.js 15  
+- **Language**: TypeScript  
+- **Styling**: TailwindCSS  
+- **Animations**: Framer Motion  
+- **Graph Visualization**: React Flow  
+- **UI Components**: Shadcn/ui  
 
-3. Run the development server:
-```bash
-npm run dev
-```
+---
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
+## **Getting Started**  
 
-## Project Structure
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/CubeStar1/ds-visualizer.git
+   cd ds-visualizer
+   ```
+
+2. Install dependencies:  
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:  
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.  
+
+---
+
+## **Project Structure**  
 
 ```
 ds-visualizer/
@@ -70,7 +80,3 @@ ds-visualizer/
 ├── hooks/                 # Custom React hooks
 ├── lib/                  
 └── content/              # Markdown content for explanations
-```
-
-
-
